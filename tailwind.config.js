@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/common/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
@@ -47,6 +47,10 @@ module.exports = {
         red: '#FF0022',
         black: '#0F0F0F',
         white: '#FFFFFF'
+      },
+      borderWidth: {
+        0: '0',
+        1: '1px'
       }
     }
   },
