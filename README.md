@@ -5,15 +5,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
 
 ```bash
- npx create-next-app -e [project-name] https://github.com/edgydigital/edgy-digital-web-starter
+ npx create-next-app -e https://github.com/edgydigital/edgy-digital-web-starter [project-name]
 ```
 
 ```bash
-yarn create next-app -e [project-name] https://github.com/edgydigital/edgy-digital-web-starter
+yarn create next-app -e https://github.com/edgydigital/edgy-digital-web-starter [project-name]
 ```
 
 ```bash
-pnpm create next-app -e [project-name] https://github.com/edgydigital/edgy-digital-web-starter
+pnpm create next-app -e https://github.com/edgydigital/edgy-digital-web-starter [project-name]
 ```
 
 ## Getting Started
