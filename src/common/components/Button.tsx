@@ -26,6 +26,8 @@ type ButtonVariant = VariantProps<typeof buttonVariants>
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, ButtonVariant {}
 
+const button = (variant: ButtonVariant, className: string | undefined) => twMerge(buttonVariants(variant), className)
+
 export default function Button({className, intent, size, ...props}: ButtonProps) {
-  return <button className={twMerge(buttonVariants({intent, size, className}))} {...props} />
+  return <button className={button({intent, size}, className)} {...props} />
 }

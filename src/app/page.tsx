@@ -1,5 +1,6 @@
 'use client'
 import Button from '@/common/components/Button'
+import CloseIcon from '@/common/components/CloseIcon'
 import Logo from '@/common/components/Logo'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Button intent="primary" size="medium" onClick={onClick}>
         Website
       </Button>
+      <CloseIcon color="red" />
     </main>
   )
 }
